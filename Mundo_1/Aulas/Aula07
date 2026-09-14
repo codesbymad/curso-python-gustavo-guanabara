@@ -1,0 +1,17 @@
+Operadores Aritméticos
+
+- Adição(+): 9 + 3 == 12
+- Subtração(-): 9 - 3 == 6
+- Multiplicação(*): 9 * 3 == 27
+- Divisão(/): 9 / 3 == 3.0
+- Potência(**): 9 ** 3 == 729
+- Divisão inteira(//): 9 // 3 == 3 (é a divisão sem as casas após a virgula)
+- Resto da divisão(%): 9 % 3 == 0 (é o resto da divisão)
+
+- Igual(==)
+
+Ordem de precedência
+- Parênteses(())
+- Potência(**)
+- Multiplicação(*), Divisão(/), Divisão inteira(//), Resto da divisão(%)
+- Adição(+), Subtração(-)

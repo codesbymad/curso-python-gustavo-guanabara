@@ -1,9 +1,9 @@
 dig = input("Digite qualquer coisa em seu teclado ")
-if dig.isnumeric() :
-    print("Você digitou numeros")
-elif(dig.isalnum()):
-    print("Você digitou letras e numeros")
-elif(dig.isalpha):
-    print("Você digitou letras")
-else:
-    print("Você não digitou nada")
+print("O tipo primitivo é " , type(dig))
+print("Tem somente números? ", dig.isnumeric())
+print("Tem somente letras? ", dig.isalpha())
+print("Tem somente espaços? ", dig.isspace())
+print("Tem letras ou números? ", dig.isalnum())
+print("São maiusculas? ", dig.isupper())
+print("São minusculas? ", dig.islower())
+print("è um titulo? ", dig.istitle())
