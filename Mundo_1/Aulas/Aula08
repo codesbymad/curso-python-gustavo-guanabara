@@ -1,0 +1,17 @@
+ Módulos
+ - Módulos são adicionais utilizados para tornar seu código mais robusto
+ - a duas formas de importar:
+    import biblioteca : vai importar tudo dessa biblioteca
+    from biblioteca import nome : vai importar da biblioteca somente o que você informou
+ - biblioteca math(biblioteca de operações matematicas):
+    ceil(): arredonda o valor para cima
+    floor(): arredonda o valor para baixo
+    trunc(): vai truncar, eliminar da virgula para a frente
+    pow(): potênciação
+    sqrt(): raiz quadrada
+    factorial(): calcula o fatorial
+ - biblioteca random(numeros aleatorios):
+    random(): gera numeros aleatorios entre 0 e 1
+    randint(inicio, fim): randomiza numeros inteiro e vc pode especificar o intervalo
+ - PyPI(indice de pacotes extras):
+    essas bibliotecas precisam ser baixadas por fora, pois o proprio pythob não disponibiliza elas internamente
